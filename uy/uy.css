@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.qqqq{
+    padding-top: 160px;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 128, 255), rgb(183, 0, 250));
+}
+.circle{
+    position: absolute;
+    bottom: 200px;
+    top: 500px;
+    left: 100px;
+    width: 350px;
+    height: 350px;
+    background: rgba(119, 0, 255, 0.808);
+    border-radius: 50%;
+
+    transform: scale(0);
+    animation: circle 2s linear infinite;
+}
+@keyframes circle {
+    to{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+.eeee{
+    position: absolute;
+    bottom: 200px;
+    top: 530px;
+    left: 1100px;
+    width: 200px;
+    height: 200px;
+    border-radius:10px;
+    background-image:linear-gradient(rgb(0, 128, 255), rgb(183, 0, 250));
+    animation: eeee 2s infinite alternate ease-in;
+}
+@keyframes eeee {
+    to{
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        transform: translateY(60px);
+    }
+}
+.ttt{
+    position: absolute;
+    bottom: 200px;
+    top: 190px;
+    left: 700px;
+    width: 200px;
+    height: 200px;
+    border-radius:10px;
+    background-image:linear-gradient(rgb(0, 128, 255), rgb(183, 0, 250));
+    animation: ttt 2s infinite alternate ease-in;
+}
+@keyframes ttt {
+    to{
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        transform: translateY(-60px);
+    }
+}
+.ggg{
+    margin-left: 780px;;
+    width: 450px;
+    height: 600px;
+    border-radius: 15px;
+    background:rgba(255, 255, 255, 0.26);
+    position: relative;
+    z-index: 5;
+}
+.ggg h1{
+    color: rgb(197, 0, 187);
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    animation: h1 3s  infinite ;
+}
+@keyframes h1 {
+    to{
+        color: rgb(255, 0, 217);
+        text-shadow:rgb(170, 0, 159) 5px 5px 9px ;
+    }
+}
+.bb{
+    margin-top: 20px;
+    margin-left: 27px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 400px;
+    height: 45px;
+    color: rgb(75, 3, 95);
+    border: 1px solid white;
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.059);
+}
+.sdg{
+    font-size: 25px;
+    color: white;
+    margin-left: 27px;
+    margin-top: 20px;
+    width: 400px;
+    height: 45px;
+    border:none;
+    border-radius: 10px;
+    background-image:linear-gradient(rgb(0, 128, 255), rgb(183, 0, 250));
+}
+.ll{
+    margin-left: 120px;
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(144, 0, 173);
+    border-radius:10px;
+    background:rgba(255, 255, 255, 0.059);
+    animation: ll 400s  infinite ;
+}
+@keyframes ll {
+    to{
+        transform: rotate(36000deg);
+    }
+}
+.li{
+    transform: rotate(130deg);
+    margin-left: 120px;
+    margin-top: -200px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(138, 0, 165);
+    border-radius:10px;
+    background:rgba(255, 255, 255, 0.059);
+    animation: li 400s  infinite ;
+}
+@keyframes li {
+    to{
+        transform: rotate(-36000deg);
+    }
+}
